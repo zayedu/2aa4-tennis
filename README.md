@@ -9,8 +9,8 @@
 
 ## Problem Description
 
-This problem is a classical Coding Dojo: [Tennis Coding Dojo](https://codingdojo.
-org/kata/Tennis/). The objective is to implement a soring system for a simplified version of tennis.
+This problem is a classical Coding Dojo: [Tennis Coding Dojo](https://codingdojo.org/kata/Tennis/).
+The objective is to implement a scoring system for a simplified version of tennis.
 
 The scoring system is rather simple:
 
