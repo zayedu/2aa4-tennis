@@ -1,6 +1,6 @@
 # Tennis Counting Dojo
 
-
+![build status](https://github.com/ace-lectures/2aa4-tennis/actions/workflows/build.yaml/badge.svg)
 
 - Author: Dr. [Sébastien Mosser](https://mosser.github.io)
 - Version: 2024.01
