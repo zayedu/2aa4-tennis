@@ -1,5 +1,7 @@
 # Tennis Counting Dojo
 
+
+
 - Author: Dr. [Sébastien Mosser](https://mosser.github.io)
 - Version: 2024.01
 - Context: McMaster University > Engineering > Computing & Software > SFWRENG > 2AA4
@@ -19,5 +21,32 @@ The scoring system is rather simple:
 5. If the player with _advantage_ wins the ball he wins the game
 6. If the player without _advantage_ wins they are back at deuce.
 
+### Assumptions
 
+The problem description is vague and imprecise, and does not indicate how the score is actually 
+incremented. We'll operate under the following assumptions:
 
+- Players are characterized by a _strength_ (a simplification of their ATP ranking)/
+- The _strength_ is an integer in the [0,100] range
+- This number is provided to the counting assistant through the command line (default is 50)
+
+## How to use this software?
+
+To compile the source code into a turn-key _Java ARchive_ (JAR):
+
+```
+mosser@azrael 2aa4-tennis % mvn package  
+```
+
+To run the counting assistant:
+
+```
+mosser@azrael 2aa4-tennis % java -jar target/tennis.jar -p1 75 -p2 30
+** Starting Tennis Counter Assistant
+**** Reading Command-Line Arguments
+****** P1's Strength is 75/100
+****** P2's Strength is 30/100
+**** Starting game
+** TODO...
+** Closing Tennis Counter Assistant
+```
