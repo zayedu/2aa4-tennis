@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: build
 
 on:
   # Triggers the workflow on push and pull request events but only for the "main" branch
@@ -29,6 +29,6 @@ jobs:
           distribution: 'adopt'
           cache: 'maven'
 
-      # Building the jpipe.jar artefact
+      # Building the tenmis.jar artefact
       - name: Create executable jar with Maven
-        run: mvn clean package -DskipTests -Dcheckstyle.skip
+        run: mvn clean package -DskipTests
