@@ -54,7 +54,7 @@ mosser@azrael 2aa4-tennis % java -jar target/tennis.jar -p1 75 -p2 30
 ## Usage in 2AA4 @McMaster
 
 - To look at the code used by your TA during tutorial #01, switch to the
-  [`tutorial`](https://github.com/ace-lectures/2aa4-tennis/tree/solution) branch:
+  [`tutorial`](https://github.com/ace-lectures/2aa4-tennis/tree/tutorial) branch:
   - `git checkout tutorial` 
 - To look at the solution designed during Lecture #04 (_Case Study: The Tennis Counting_), switch 
   to the [`solution`](https://github.com/ace-lectures/2aa4-tennis/tree/solution) branch: 
