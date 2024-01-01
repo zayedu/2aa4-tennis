@@ -18,7 +18,7 @@ The scoring system is rather simple:
 2. If you have `40` and you win the point you win the game, however there are special rules.
 3. If both have `40` the players are _deuce_.
 4. If the game is in _deuce_, the winner of a point will have _advantage_
-5. If the player with _advantage_ wins the ball he wins the game
+5. If the player with _advantage_ wins the ball they win the game
 6. If the player without _advantage_ wins they are back at deuce.
 
 ### Assumptions
@@ -26,7 +26,7 @@ The scoring system is rather simple:
 The problem description is vague and imprecise, and does not indicate how the score is actually 
 incremented. We'll operate under the following assumptions:
 
-- Players are characterized by a _strength_ (a simplification of their ATP ranking)/
+- Players are characterized by a _strength_ (a simplification of their ATP ranking)
 - The _strength_ is an integer in the [0,100] range
 - This number is provided to the counting assistant through the command line (default is 50)
 
@@ -50,3 +50,12 @@ mosser@azrael 2aa4-tennis % java -jar target/tennis.jar -p1 75 -p2 30
 ** TODO...
 ** Closing Tennis Counter Assistant
 ```
+
+## Usage in 2AA4 @McMaster
+
+- To look at the code used by your TA during tutorial #01, switch to the
+  [`tutorial`](https://github.com/ace-lectures/2aa4-tennis/tree/solution) branch:
+  - `git checkout tutorial` 
+- To look at the solution designed during Lecture #04 (_Case Study: The Tennis Counting_), switch 
+  to the [`solution`](https://github.com/ace-lectures/2aa4-tennis/tree/solution) branch: 
+  - `git checkout solution`
