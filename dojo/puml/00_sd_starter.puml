@@ -1,0 +1,13 @@
+@startuml
+
+!include ./puml.style
+
+autoactivate on
+
+participant "_: Main" as Main
+
+[-> Main: main(args)
+
+return
+
+@enduml
